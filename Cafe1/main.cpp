@@ -3,10 +3,11 @@
 
 int main()
 {
-    Inventory* inv = new Inventory();
+    Inventory *inv = new Inventory();
     inv->populate_inventory();
     inv->list_inventory();
-    delete(inv); 
+    inv->transaction();
+    delete (inv);
 
     return 0;
 }

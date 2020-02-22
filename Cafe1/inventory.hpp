@@ -12,10 +12,12 @@ private:
     std::vector<Item> m_bagels;
     std::vector<Item> m_donuts;
     std::vector<Item> m_sandwiches;
+
 public:
     Inventory();
     void populate_inventory();
     void list_inventory();
+    void transaction();
 };
 
 #endif

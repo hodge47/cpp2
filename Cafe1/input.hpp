@@ -5,11 +5,10 @@
 class Input
 {
 private:
-    
 public:
     Input();
-    std::string get_item_input(std::string _item);
-    int get_item_count(int _itemCount);
+    std::string get_item_input();
+    int get_item_count();
 };
 
 #endif

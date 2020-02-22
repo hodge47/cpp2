@@ -1,16 +1,20 @@
 #include "input.hpp"
+#include <iostream>
 
 Input::Input()
 {
-
 }
 
-std::string Input::get_item_input(std::string _item)
+std::string Input::get_item_input()
 {
-    return "Not implemented!";
+    std::string _itemName = "";
+    std::cin >> _itemName;
+    return _itemName;
 }
 
-int Input::get_item_count(int _itemCount)
+int Input::get_item_count()
 {
-    return 0;
+    int _itemCount = 0;
+    std::cin >> _itemCount;
+    return _itemCount;
 }
